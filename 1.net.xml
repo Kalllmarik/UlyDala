@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-11-09 18:43:07 by Eclipse SUMO netedit Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="D:\YandexDisk\lvl80\UlyDala\Sumo\UlyDala\1.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\YandexDisk\lvl80\UlyDala\Sumo\UlyDala\1.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <new-network value="false"/>
+    </netedit>
+
+</configuration>
+-->
+
+<net version="1.16" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-33.70,-31.48,-3.35,59.11" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <edge id="E1" from="J3" to="J4" priority="-1">
+        <lane id="E1_0" index="0" speed="13.89" length="95.54" shape="-32.18,-31.99 -1.83,58.60"/>
+    </edge>
+
+    <junction id="J3" type="dead_end" x="-33.70" y="-31.48" incLanes="" intLanes="" shape="-33.70,-31.48 -30.66,-32.49"/>
+    <junction id="J4" type="dead_end" x="-3.35" y="59.11" incLanes="E1_0" intLanes="" shape="-0.31,58.09 -3.35,59.11"/>
+
+</net>
