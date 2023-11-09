@@ -1,0 +1,44 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"task.allowAutomaticTasks": "on",
+		"task.autoDetect": "off"
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"type": "shell",
+				"command": "sumo-gui 1.sumocfg",
+				"label": "sumo gui",
+				"detail": "запуск сумо гуи",
+				"problemMatcher": [],
+				"icon": {
+					"color": "terminal.ansiMagenta",
+					"id": "chevron-up"
+				},
+				"isBackground": true,
+				"options": {
+					// "cwd": "../"
+				},
+				"promptOnClose": true,
+				"runOptions": {
+					"instanceLimit": 1,
+					"reevaluateOnRerun": true,
+				},
+				"presentation": {
+					"echo": true,
+					"reveal": "silent",
+					"panel": "shared",
+					"showReuseMessage": false,
+					"clear": true,
+					"close": true,
+				}
+			}
+		]
+	}
+}
