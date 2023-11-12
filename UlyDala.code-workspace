@@ -13,7 +13,7 @@
 		"tasks": [
 			{
 				"type": "shell",
-				"command": "sumo-gui 1.sumocfg",
+				"command": "sumo-gui basic.sumocfg",
 				"label": "sumo gui",
 				"detail": "запуск сумо гуи",
 				"problemMatcher": [],
@@ -41,7 +41,7 @@
 			},
 			{
 				"type": "shell",
-				"command": "netedit 1.net.xml",
+				"command": "netedit basic.net.xml",
 				"label": "netedit",
 				"detail": "запуск нетэдит",
 				"problemMatcher": [],
