@@ -41,7 +41,7 @@
 			},
 			{
 				"type": "shell",
-				"command": "netedit basic.net.xml",
+				"command": "netedit basic.netecfg",
 				"label": "netedit",
 				"detail": "запуск нетэдит",
 				"problemMatcher": [],
