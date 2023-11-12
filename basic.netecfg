@@ -6,8 +6,8 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
-        <route-files value="1.rou.xml"/>
-        <sumo-net-file value="1.net.xml"/>
+        <route-files value="basic.rou.xml"/>
+        <sumo-net-file value="basic.net.xml"/>
     </input>
 
     <processing>
