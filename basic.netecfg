@@ -8,6 +8,7 @@
     <input>
         <route-files value="basic.rou.xml"/>
         <sumo-net-file value="basic.net.xml"/>
+        <additional-files value="taz.add.xml"/>
     </input>
 
     <processing>
