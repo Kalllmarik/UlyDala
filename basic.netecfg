@@ -10,7 +10,9 @@
         <sumo-net-file value="basic.net.xml"/>
         <additional-files value="taz.add.xml"/>
     </input>
-
+    <visualisation>
+        <gui-settings-file value="background/background_config.xml" />
+    </visualisation>
     <processing>
         <geometry.min-radius.fix.railways value="false"/>
         <geometry.max-grade.fix value="false"/>
