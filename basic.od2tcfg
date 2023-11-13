@@ -14,7 +14,6 @@
     </output>
     <processing>
         <different-source-sink value="true" />
-        <vtype value="passenger" />
     </processing>
     <report>
         <verbose value="true" />
