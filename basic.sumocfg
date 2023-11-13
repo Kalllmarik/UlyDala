@@ -7,7 +7,7 @@
 
     <input>
         <net-file value="basic.net.xml"/>
-        <route-files value="od.rou.xml"/>
+        <route-files value="od.rou.xml, basic.rou.xml"/>
         <additional-files value="taz.add.xml, vType.xml"/>
     </input>
 
