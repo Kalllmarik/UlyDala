@@ -1,7 +1,15 @@
 <data xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
   xsi:noNamespaceSchemaLocation="https://sumo.dlr.de/xsd/datamode_file.xsd">
-  <interval id="passenger" begin="0" end="1:0:0">
-    <tazRelation count="2000" from="1" to="2" />
-    <tazRelation count="500" from="1" to="9" />
+  <interval id="0" begin="0" end="3600">
+    <tazRelation count="300" from="1" to="102" />
+    <tazRelation count="300" from="1" to="103" />
+    <tazRelation count="300" from="2" to="103" />
+    <tazRelation count="300" from="2" to="103" />
+    <tazRelation count="300" from="3" to="103" />
+    <tazRelation count="300" from="3" to="103" />
   </interval>
-</data>
+  <interval id="1" begin="0" end="3600">
+    <tazRelation count="100" from="102" to="103" />
+    <tazRelation count="100" from="103" to="102" />
+  </interval>
+</data> 
