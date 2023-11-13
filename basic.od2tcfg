@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-11-13 16:28:55 by Eclipse SUMO od2trips Version 1.19.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/od2tripsConfiguration.xsd">
+    <input>
+        <taz-files value="basic.net.xml, taz.add.xml" />
+        <tazrelation-files value="od-taz-relation.xml" />
+    </input>
+    <output>
+        <output-file value="od.rou.xml" />
+    </output>
+    <processing>
+        <different-source-sink value="true" />
+        <vtype value="passenger" />
+    </processing>
+    <report>
+        <verbose value="true" />
+    </report>
+</configuration>

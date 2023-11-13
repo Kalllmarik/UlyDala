@@ -66,6 +66,34 @@
 					"clear": true,
 					"close": true,
 				}
+			},
+			{
+				"type": "shell",
+				"command": "od2trips basic.od2tcfg",
+				"label": "od2trips",
+				"detail": "сгенерировать траффик",
+				"problemMatcher": [],
+				"icon": {
+					"color": "terminal.ansiMagenta",
+					"id": "chevron-up"
+				},
+				"isBackground": true,
+				"options": {
+					// "cwd": "../"
+				},
+				"promptOnClose": true,
+				"runOptions": {
+					"instanceLimit": 1,
+					"reevaluateOnRerun": true,
+				},
+				"presentation": {
+					"echo": true,
+					"reveal": "silent",
+					"panel": "shared",
+					"showReuseMessage": false,
+					"clear": true,
+					"close": true,
+				}
 			}
 		]
 	}
