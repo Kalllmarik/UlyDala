@@ -2,6 +2,7 @@
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-    <vType id="passenger" length="5" maxSpeed="70" carFollowModel="Krauss" accel="2.6" decel="4.5"
-        sigma="0.5" />
+    <vType id="0" vClass="passenger" guiShape="passenger/sedan" length="4.30" maxSpeed="33.00" color="#FF0000" accel="2.6" decel="7.8" probability="0.49" carFollowModel="IDM" sigma="1" minGap="2" jmCrossingGap="15" tau="1"/>
+    <vType id="1" vClass="truck" length="7.10" maxSpeed="28.00" color="#808000" accel="1" decel="4.0" probability="0.08" carFollowModel="IDM" sigma="1" minGap="2" jmCrossingGap="15" tau="1"/>
+    <vType id="2" vClass="bus" length="15.0" maxSpeed="22.00" color="#00FF00" accel="1" decel="4.0" probability="0.04" carFollowModel="IDM" sigma="1" minGap="2" jmCrossingGap="15" tau="1"/>
 </routes>
