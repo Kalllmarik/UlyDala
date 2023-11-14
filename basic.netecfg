@@ -11,7 +11,7 @@
         <sumo-net-file value="basic.net.xml"/>
     </input>
 
-    <processing>
+    <!--<processing>
         <geometry.min-radius.fix.railways value="false"/>
         <geometry.max-grade.fix value="false"/>
         <offset.disable-normalization value="true"/>
@@ -28,7 +28,7 @@
 
     <pedestrian>
         <walkingareas value="0"/>
-    </pedestrian>
+    </pedestrian>-->
 
     <visualisation>
         <gui-settings-file value="background/background_config.xml"/>

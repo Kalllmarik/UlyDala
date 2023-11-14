@@ -10,5 +10,27 @@
         <route-files value="od.rou.xml"/>
         <additional-files value="taz.add.xml, vType.xml"/>
     </input>
-
+    <processing>
+        <report>
+            <verbose value="true"/>
+            <duration-log.statistics value="true"/>
+            <no-step-log value="true"/>
+        </report>
+    </processing>
+    <routing>
+        <device.rerouting.probability value="1"/>
+        <device.rerouting.period value="30"/>
+        <device.rerouting.pre-period value="10"/>
+        <device.rerouting.with-taz value="true"/>
+        <!-- <device.rerouting.adaptation-weight value="1"/> -->
+        <device.rerouting.threads value="4"/>
+    </routing>
+    <time>
+        <begin value="0"/>
+        <end value="6400"/>
+        <step-length value="0.2"/>
+    </time>
+    <gui_only>
+        <gui-settings-file value="gui.settings.xml"/>
+    </gui_only>
 </configuration>
