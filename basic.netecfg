@@ -7,7 +7,7 @@
 
     <input>
         <additional-files value="taz.add.xml"/>
-        <route-files value="basic.rou.xml"/>
+        <route-files value="od.rou.xml"/>
         <sumo-net-file value="basic.net.xml"/>
     </input>
 
