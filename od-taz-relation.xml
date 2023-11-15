@@ -26,20 +26,20 @@
     <tazRelation count="100" from="k_5" to="h_3" />
     <tazRelation count="100" from="k_5" to="h_4" />
     <tazRelation count="100" from="k_5" to="h_5" />
-    <tazRelation count="300" from="k_6" to="h_1" />
-    <tazRelation count="300" from="k_6" to="h_2" />
-    <tazRelation count="300" from="k_6" to="h_3" />
-    <tazRelation count="300" from="k_6" to="h_4" />
-    <tazRelation count="300" from="k_6" to="h_5" />
-    <tazRelation count="300" from="k_7" to="h_1" />
-    <tazRelation count="300" from="k_7" to="h_2" />
-    <tazRelation count="300" from="k_7" to="h_3" />
-    <tazRelation count="300" from="k_7" to="h_4" />
-    <tazRelation count="300" from="k_7" to="h_5" />
-    <tazRelation count="300" from="k_8" to="h_1" />
-    <tazRelation count="300" from="k_8" to="h_2" />
-    <tazRelation count="300" from="k_8" to="h_3" />
-    <tazRelation count="300" from="k_8" to="h_4" />
-    <tazRelation count="300" from="k_8" to="h_5" />
+    <tazRelation count="100" from="k_6" to="h_1" />
+    <tazRelation count="100" from="k_6" to="h_2" />
+    <tazRelation count="100" from="k_6" to="h_3" />
+    <tazRelation count="100" from="k_6" to="h_4" />
+    <tazRelation count="100" from="k_6" to="h_5" />
+    <tazRelation count="100" from="k_7" to="h_1" />
+    <tazRelation count="100" from="k_7" to="h_2" />
+    <tazRelation count="100" from="k_7" to="h_3" />
+    <tazRelation count="100" from="k_7" to="h_4" />
+    <tazRelation count="100" from="k_7" to="h_5" />
+    <tazRelation count="100" from="k_8" to="h_1" />
+    <tazRelation count="100" from="k_8" to="h_2" />
+    <tazRelation count="100" from="k_8" to="h_3" />
+    <tazRelation count="100" from="k_8" to="h_4" />
+    <tazRelation count="100" from="k_8" to="h_5" />
   </interval>
 </data> 
