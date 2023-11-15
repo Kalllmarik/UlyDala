@@ -42,26 +42,4 @@
     <tazRelation count="300" from="k_8" to="h_4" />
     <tazRelation count="300" from="k_8" to="h_5" />
   </interval>
-  <interval id="1" begin="0" end="3600">
-    <tazRelation count="50" from="h_1" to="h_2" />
-    <tazRelation count="50" from="h_1" to="h_3" />
-    <tazRelation count="50" from="h_1" to="h_4" />
-    <tazRelation count="50" from="h_1" to="h_5" />
-    <tazRelation count="50" from="h_2" to="h_1" />
-    <tazRelation count="50" from="h_2" to="h_3" />
-    <tazRelation count="50" from="h_2" to="h_4" />
-    <tazRelation count="50" from="h_2" to="h_5" />
-    <tazRelation count="50" from="h_3" to="h_1" />
-    <tazRelation count="50" from="h_3" to="h_2" />
-    <tazRelation count="50" from="h_3" to="h_4" />
-    <tazRelation count="50" from="h_3" to="h_5" />
-    <tazRelation count="50" from="h_4" to="h_1" />
-    <tazRelation count="50" from="h_4" to="h_2" />
-    <tazRelation count="50" from="h_4" to="h_3" />
-    <tazRelation count="50" from="h_4" to="h_5" />
-    <tazRelation count="50" from="h_5" to="h_1" />
-    <tazRelation count="50" from="h_5" to="h_2" />
-    <tazRelation count="50" from="h_5" to="h_3" />
-    <tazRelation count="50" from="h_5" to="h_4" />
-  </interval>
 </data> 

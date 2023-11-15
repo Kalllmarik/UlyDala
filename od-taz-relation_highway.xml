@@ -1,0 +1,25 @@
+<data xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="https://sumo.dlr.de/xsd/datamode_file.xsd">
+  <interval id="0" begin="0" end="3600">
+    <tazRelation count="249" from="h_1" to="h_2" />
+    <tazRelation count="249" from="h_1" to="h_3" />
+    <tazRelation count="249" from="h_1" to="h_4" />
+    <tazRelation count="80" from="h_1" to="h_5" />
+    <tazRelation count="277" from="h_2" to="h_1" />
+    <tazRelation count="406" from="h_2" to="h_3" />
+    <tazRelation count="406" from="h_2" to="h_4" />
+    <tazRelation count="131" from="h_2" to="h_5" />
+    <tazRelation count="277" from="h_3" to="h_1" />
+    <tazRelation count="406" from="h_3" to="h_2" />
+    <tazRelation count="406" from="h_3" to="h_4" />
+    <tazRelation count="131" from="h_3" to="h_5" />
+    <tazRelation count="277" from="h_4" to="h_1" />
+    <tazRelation count="406" from="h_4" to="h_2" />
+    <tazRelation count="406" from="h_4" to="h_3" />
+    <tazRelation count="131" from="h_4" to="h_5" />
+    <tazRelation count="72" from="h_5" to="h_1" />
+    <tazRelation count="106" from="h_5" to="h_2" />
+    <tazRelation count="106" from="h_5" to="h_3" />
+    <tazRelation count="106" from="h_5" to="h_4" />
+  </interval>
+</data> 
