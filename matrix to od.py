@@ -35,4 +35,4 @@ def csv_to_taz_relation(interval: ET.Element, input_file: str):
 
 root, interval = generate_xml(args.id, args.begin, args.end)
 csv_to_taz_relation(interval, args.file + '.csv')
-ET.ElementTree(root).write(args.file + 'rou.xml')
+ET.ElementTree(root).write(args.file + '.xml')
