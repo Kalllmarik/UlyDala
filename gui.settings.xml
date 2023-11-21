@@ -1,12 +1,10 @@
 <viewsettings>
     <scheme name="UlyDala">
         <edges laneShowBorders="1" />
-        <vehicles vehicleMode="10" vehicleQuality="2">
-            <colorScheme name="by waiting time" interpolated="1">
-                <entry color="blue" threshold="0.00" />
-                <entry color="cyan" threshold="30.00" />
-                <entry color="green" threshold="100.00" />
-                <entry color="yellow" threshold="200.00" />
+        <vehicles vehicleMode="11" vehicleQuality="2">
+            <colorScheme name="by accumulated waiting time" interpolated="1">
+                <entry color="green" threshold="0.00" />
+                <entry color="yellow" threshold="120.00" />
                 <entry color="red" threshold="300.00" />
             </colorScheme>
         </vehicles>
