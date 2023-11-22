@@ -16,13 +16,13 @@
         <duration-log.statistics value="true" />
         <no-step-log value="true" />
     </report>
-   <!-- <routing>
-        <device.rerouting.probability value="1" />
-        <device.rerouting.period value="60" />
+    <routing>
+        <device.rerouting.probability value="0.2" />
+        <device.rerouting.period value="30" />
         <device.rerouting.pre-period value="30" />
         <device.rerouting.with-taz value="true" />
         <device.rerouting.threads value="4" />
-    </routing> -->
+    </routing>
     <processing>
         <waiting-time-memory value="300" />
     </processing>
