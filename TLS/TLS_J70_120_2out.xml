@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-11-22 18:53:25 by Eclipse SUMO netedit Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <additional-files value="taz.add.xml"/>
+        <sumo-net-file value="D:\YandexDisk\lvl80\UlyDala\Sumo\UlyDala\basic.net.xml"/>
+    </input>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="0"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="10"/>
+        <junctions.internal-link-detail value="10"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+    <visualisation>
+        <gui-settings-file value="background/background_config.xml"/>
+    </visualisation>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="J70" type="static" programID="0" offset="40">
+        <phase duration="70" state="GrrrGrrr"/>
+        <phase duration="3" state="yrrryrrr"/>
+        <phase duration="3" state="rrrrrrrr"/>
+        <phase duration="8" state="rgrrrgrr"/>
+        <phase duration="3" state="ryrrryrr"/>
+        <phase duration="3" state="rrrrrrrr"/>
+        <phase duration="24" state="rrGGrrGG"/>
+        <phase duration="3" state="rryyrryy"/>
+        <phase duration="3" state="rrrrrrrr"/>
+    </tlLogic>
+</additional>
