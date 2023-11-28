@@ -7,7 +7,7 @@
     xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/od2tripsConfiguration.xsd">
     <input>
         <taz-files value="basic.net.xml, taz.add.xml" />
-        <tazrelation-files value="od/morning_out.xml, od/morning_in.xml, od-taz-relation_highway.xml" />
+        <tazrelation-files value="od/morning.xml" />
     </input>
     <output>
         <output-file value="od.rou.xml" />
