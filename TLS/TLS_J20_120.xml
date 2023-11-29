@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-11-23 17:57:08 by Eclipse SUMO netedit Version 1.19.0
+<!-- generated on 2023-11-29 21:14:44 by Eclipse SUMO netedit Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
@@ -14,6 +14,10 @@
         <offset.disable-normalization value="true"/>
         <lefthand value="0"/>
     </processing>
+
+    <tls_building>
+        <tls.cycle.time value="60"/>
+    </tls_building>
 
     <junctions>
         <no-turnarounds value="true"/>
@@ -36,13 +40,13 @@
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <tlLogic id="J20" type="static" programID="0" offset="20">
-        <phase duration="16" state="Ggrrr"/>
+        <phase duration="32" state="Ggrrr"/>
         <phase duration="3" state="Gyrrr"/>
         <phase duration="3" state="Grrrr"/>
-        <phase duration="48" state="GrrGG"/>
+        <phase duration="40" state="GrrGG"/>
         <phase duration="3" state="yrryy"/>
         <phase duration="3" state="rrrrr"/>
-        <phase duration="38" state="rrGrr"/>
+        <phase duration="30" state="rrGrr"/>
         <phase duration="3" state="rryrr"/>
         <phase duration="3" state="rrrrr"/>
     </tlLogic>
