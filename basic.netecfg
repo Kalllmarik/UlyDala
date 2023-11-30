@@ -7,7 +7,7 @@
 
     <input>
         <additional-files value="taz.add.xml"/>
-        <sumo-net-file value="D:\YandexDisk\lvl80\UlyDala\Sumo\UlyDala\basic.net.xml"/>
+        <sumo-net-file value="basic.net.xml"/>
     </input>
 
     <processing>
