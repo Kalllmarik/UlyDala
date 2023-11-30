@@ -10,10 +10,27 @@
 	},
 	"tasks": {
 		"version": "2.0.0",
+		"inputs": [
+			{
+				"id": "project",
+				"type": "pickString",
+				"description": "Выберите сценарий",
+				"options": [
+					{
+						"value": "morning",
+						"label": "утренний"
+					},
+					{
+						"value": "evening",
+						"label": "вечерний"
+					},
+				]
+			}
+		],
 		"tasks": [
 			{
 				"type": "shell",
-				"command": "sumo-gui basic.sumocfg",
+				"command": "sumo-gui -c basic.sumocfg -r ${input:project}.rou.xml",
 				"label": "sumo gui",
 				"detail": "запуск сумо гуи",
 				"problemMatcher": [],
@@ -69,7 +86,7 @@
 			},
 			{
 				"type": "shell",
-				"command": "od2trips basic.od2tcfg",
+				"command": "od2trips -c basic.od2tcfg -z od/${input:project}.xml -o ${input:project}.rou.xml",
 				"label": "od2trips",
 				"detail": "сгенерировать траффик",
 				"problemMatcher": [],
