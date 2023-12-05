@@ -14,7 +14,7 @@
     </output>
     <processing>
         <different-source-sink value="true" />
-        <spread.uniform value="true" />
+        <!-- <spread.uniform value="true" /> -->
     </processing>
     <report>
         <verbose value="true" />
