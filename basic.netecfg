@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-11-23 21:26:04 by Eclipse SUMO netedit Version 1.19.0
+<!-- generated on 2023-12-05 17:32:59 by Eclipse SUMO netedit Version 1.19.0
 -->
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
@@ -16,6 +16,11 @@
         <offset.disable-normalization value="true"/>
         <lefthand value="0"/>
     </processing>
+
+    <building_defaults>
+        <default.lanewidth value="3"/>
+        <default.speed value="11.11"/>
+    </building_defaults>
 
     <tls_building>
         <tls.cycle.time value="60"/>
