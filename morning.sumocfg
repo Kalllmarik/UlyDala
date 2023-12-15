@@ -11,6 +11,9 @@
         <route-files value="morning.rou.xml" />
         <additional-files value="taz.add.xml, vType.xml" />
     </input>
+    <output>
+        <edgedata-output value="morning_data.xml" />
+    </output>
     <report>
         <verbose value="true" />
         <duration-log.statistics value="true" />
