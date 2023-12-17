@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-11-12 13:24:11 by Eclipse SUMO sumo Version 1.19.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="basic.net.xml" />
+        <route-files value="evening_accepted_low.rou.xml" />
+        <additional-files value="taz.add.xml, vType.xml" />
+    </input>
+    <report>
+        <verbose value="true" />
+        <duration-log.statistics value="true" />
+        <no-step-log value="true" />
+    </report>
+    <routing>
+        <device.rerouting.probability value="0.2" />
+        <device.rerouting.period value="30" />
+        <device.rerouting.pre-period value="30" />
+        <device.rerouting.with-taz value="true" />
+        <device.rerouting.threads value="4" />
+    </routing>
+    <processing>
+        <waiting-time-memory value="300" />
+    </processing>
+    <time>
+        <begin value="0" />
+        <end value="6400" />
+        <step-length value="0.5" />
+    </time>
+    <gui_only>
+        <gui-settings-file value="gui.settings.xml" />
+    </gui_only>
+</configuration>
